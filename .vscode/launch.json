@@ -13,6 +13,5 @@
          "justMyCode": true,
          "args" : [ "./test/test-db.db", "./test/test-db-1.db" ]
          }
-      }
    ]
 }
