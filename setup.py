@@ -8,10 +8,7 @@ setup(
     author='Tom Coppola',
     author_email="tcoppola@naii.com",
     install_requires=[
-        'sqlite3-utils',
         'click',
-        'subprocess',
-        'tempfile',
     ],
     entry_points={
         'console_scripts': ['diff-sqlite=main:main'],
