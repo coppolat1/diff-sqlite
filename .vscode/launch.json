@@ -8,10 +8,10 @@
          "name": "Python: Current File",
          "type": "python",
          "request": "launch",
-         "program": "diff-sqlite/cli.py",
+         "program": "diff-sqlite.py",
          "console": "integratedTerminal",
          "justMyCode": true,
-         "args" : [ "./test/test-db.db", "./test/test-db-1.db" ]
+         "args" : [ "./tests/test-db.db", "./tests/test-db-1.db" ]
          }
    ]
 }
