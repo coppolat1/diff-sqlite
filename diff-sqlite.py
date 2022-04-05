@@ -22,14 +22,10 @@ def cli(file1, file2):
     dump_sqllite_db(file2, file2_tmp)
 
     # Open diff in beyond compare
-    tmp = subprocess.Popen([BCOMP_PATH,
-                           file1_tmp,
-                           file2_tmp,
-                           '/title1=' + os.path.basename(file1_tmp),
+    tmp = subprocess.Popen([BCOMP_PATH, file1_tmp, file2_tmp,
+                            '/title1=' + os.path.basename(file1_tmp),
                             '/title2=' + os.path.basename(file2_tmp),
-                            '/leftreadonly',
-                            '/rightreadonly',
-                            ])
+                            '/leftreadonly', '/rightreadonly'])
     tmp.wait()
 
     os.remove(file1_tmp)
