@@ -1,6 +1,12 @@
 # diff-sqlite
 A utility to diff binary (.db) SQLite database files.
 
+## How does it work?
+- Connect to both databases using Python's `sqlite3` standard library.
+- Dump the contents of both databases into a text-readable `.sql` file.
+- Launch a Beyond Compare diff of these two files.
+- After Beyond Compare is closed, remove all temporary files.
+
 ## Integration with TortoiseSVN
 - Navigate to `TSVN Settings -> Diff Viewer -> Advanced -> Add`
 - Supply `.db` as the filename
@@ -8,3 +14,7 @@ A utility to diff binary (.db) SQLite database files.
 
 ## Integration with git
 To do..
+
+## To Do
+- [ ] Figure out dependencies: i.e. get `setuptools` to work.
+- [ ] Not everyone has Beyond Compare.. other options should be available.
