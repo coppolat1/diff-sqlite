@@ -18,3 +18,4 @@ To do..
 ## To Do
 - [ ] Figure out dependencies: i.e. get `setuptools` to work.
 - [ ] Not everyone has Beyond Compare.. other options should be available.
+- [ ] Add script to add registry key, instead of having user edit TSVN settings directly?
