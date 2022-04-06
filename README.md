@@ -19,3 +19,4 @@ To do..
 - [ ] Figure out dependencies: i.e. get `setuptools` to work.
 - [ ] Not everyone has Beyond Compare.. other options should be available.
 - [ ] Add script to add registry key, instead of having user edit TSVN settings directly?
+`HKEY_CURRENT_USER\Software\TortoiseSVN\DiffTools`
